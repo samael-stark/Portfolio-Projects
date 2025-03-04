@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #0a0a0a;
+}
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 96px;
+  background: transparent;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.logo {
+  font-size: 32px;
+  text-decoration: none;
+  color: #c7c7c7;
+  font-family: "Bebas Neue", serif;
+
+  cursor: default;
+}
+.navbar a {
+  color: #c7c7c7;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 32px;
+  font-family: "Manrope", serif;
+  transition: 0.3sec;
+}
+
+.navbar a:hover {
+  color: #18d1cf;
+}
+.home {
+  padding: 30px 108px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeimagesec img {
+  width: 600px;
+}
+.homecont {
+  max-width: 544px;
+}
+.homecont h3 {
+  font-size: 101px;
+  font-family: "Bebas Neue", serif;
+  color: white;
+}
+.homecont h3 span {
+  color: #18d1cf;
+}
+.homecont p {
+  padding-top: 8px;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Manrope", serif;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+
+  padding-top: 40px;
+}
+
+.contactbut {
+  text-decoration: none;
+  background-color: #18d1cf;
+  font-size: 20px;
+  color: #0a0a0a;
+  font-family: "Bebas Neue", serif;
+  display: inline-block;
+  padding: 15px 24px 15px;
+  border-radius: 54px;
+  font-weight: 800px;
+  transition: 0.3sec;
+}
+.bxl-github {
+  color: #fff;
+  display: block;
+
+  margin: 16px;
+  width: 54px;
+  height: 54px;
+  font-size: 54px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.bxl-linkedin {
+  display: block;
+  margin: 16px;
+  width: 54px;
+  height: 54px;
+  color: #fff;
+  font-size: 54px;
+  transition: 0.3s;
+}
+.contactbut i {
+  font-size: 20px;
+  padding-left: 8px;
+}
+.bxl-github:hover {
+  color: #18d1cf;
+  text-shadow: 0 0 5px #18d1cf, 0 0 25px #18d1cf;
+}
+.bxl-linkedin:hover {
+  text-shadow: 0 0 5px #18d1cf, 0 0 25px #18d1cf;
+
+  color: #18d1cf;
+}
+.contactbut:hover {
+  box-shadow: 0 0 5px #18d1cf, 0 0 25px #18d1cf;
+  color: white;
+}
+
+/* featured  */
+.feathead {
+  height: 138px;
+  width: 600px;
+}
+.feathead h3 {
+  font-family: "Bebas Neue", serif;
+}
+.feathead p {
+  color: #c7c7c7;
+  font-size: 18px;
+  font-family: "Manrope", serif;
+  margin-top: 8px;
+}
+.featuredproj {
+  padding: 80px 108px 80px;
+}
+.featuredproj h3 {
+  color: #fff;
+  font-size: 76px;
+  font-family: "Bebas Neue";
+}
+
+.boximgbox {
+  border-radius: 12px;
+  height: 600px;
+  background-color: #1a1a1a;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featurebox {
+  padding-top: 80px;
+}
+.boximgbox img {
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 486px;
+}
+.featurebox {
+  display: flex;
+  align-items: center;
+}
+
+/* textboxinfo */
+
+.textbox h3 {
+  font-size: 32px;
+  color: #fff;
+  font-family: "Manrope", serif;
+}
+.textbox {
+  width: 624px;
+  height: 600px;
+  margin-left: 48px;
+  font-family: "Manrope", serif;
+}
+.textbox p {
+  font-size: 18px;
+  color: #c7c7c7;
+  padding-top: 16px;
+}
+.pinfo {
+  margin-top: 32px;
+}
+.pinfo h3 {
+  font-size: 16px;
+  font-family: "Manrope", serif;
+  font-weight: bold;
+  color: #fff;
+}
+.pinfo hr {
+  margin-top: 16px;
+}
+.pinfo p {
+  color: #fff;
+  margin: 16px 0px 16px;
+}
+.pinfo span {
+  color: #c7c7c7;
+}
+.featbuttons {
+  padding-top: 48px;
+}
+.livedemo {
+  text-decoration: none;
+  color: #18d1cf;
+  font-weight: bold;
+}
+.seegit {
+  margin-left: 24px;
+  color: #18d1cf;
+  font-weight: bold;
+  text-decoration: none;
+}
+.livedemo bx-link-external {
+  width: 18.41px;
+}
+.aboutme {
+  display: flex;
+  align-items: center;
+  padding: 122px 108px 120px;
+}
+.aboutbox2 {
+  width: 704px;
+  height: 343px;
+}
+.medetails h3 {
+  width: 670px;
+  color: #fff;
+  font-family: "Manrope", serif;
+  font-size: 32px;
+}
+.medetails p {
+  width: 704px;
+  margin-top: 16px;
+  font-family: "Manrope", serif;
+  font-size: 18px;
+  color: #c7c7c7;
+}
+.mehead h3 {
+  width: 307px;
+  font-size: 101px;
+  color: white;
+  font-family: "Bebas Neue", serif;
+}
+.meicons {
+  margin-top: 16px;
+  margin-left: -20px;
+}
+/* capabilities */
+.capabilities {
+  padding: 0px 108px 80px;
+  display: flex;
+  align-items: center;
+}
+.capabilities h3 {
+  font-family: "Bebas Neue", serif;
+  color: #fff;
+  font-size: 76px;
+  width: max-content;
+}
+
+.cboxtwo p {
+  margin-left: 188px;
+  font-family: "Manrope", serif;
+  color: #c7c7c7;
+  font-size: 18px;
+}
+.skills,
+.additional-skills {
+  margin-left: 188px;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skills span,
+.additional-skills span {
+  border: 1px solid #484848;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 54px;
+  font-size: 16px;
+}
+/* my experience */
